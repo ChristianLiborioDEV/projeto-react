@@ -25,7 +25,7 @@ function App() {
     {
     nome:"Devops",
     corPrimaria: "#E06B69",
-    corSecundaria: "FDE7E8"
+    corSecundaria: "#FDE7E8"
     },
     {
     nome:"UX e Design",

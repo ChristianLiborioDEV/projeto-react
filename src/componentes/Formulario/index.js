@@ -21,6 +21,9 @@ const Formulario = (props) => {
             imagem,
             time
         })
+        setNome("")
+        setCargo("")
+        setImagem("")
     }
     return (
         <section className="formulario">
@@ -47,7 +50,7 @@ const Formulario = (props) => {
                 aoAlterado={valor => setImagem(valor)} 
                 />
                 <ListaSuspensa 
-                obrigatorio={true}  
+                required={true}  
                 label="Time" 
                 itens={props.times}
                 valor={time}
