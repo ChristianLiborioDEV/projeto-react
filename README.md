@@ -23,6 +23,9 @@ Aplicação para organizar colaboradores por times, desenvolvida durante o curso
 - CSS3
 - Create React App
 
+## Vercel
+[https://projeto-react-ochre.vercel.app/]
+
 ## Como executar
 
 ```bash
